@@ -1,0 +1,115 @@
+"""
+    CISC-121 2023W
+    Name:   Jun Park
+    Student Number: 20351229
+    Email:  21sp111@queensu.ca
+    Date: 2023-03-15
+
+    I confirm that this assignment solution is my own work and conforms to
+    Queen’s standards of Academic Integrity
+"""
+"""
+-------------------------------------------------------
+MAIN OUTPUTS FOR CODE 1
+
+Test 1.
+INPUT: ADD, DAD
+REASON: Testing if Anagram feature works
+
+This program will determine if the strings you have entered are Anagrams
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: ADD
+Enter String 2: DAD
+The two strings you have entered are Anagrams!
+
+
+Test 2.
+INPUT: HELLO, WORLD
+REASON: If the strings are not anagrams
+
+This program will determine if the strings you have entered are Anagrams
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: HELLO
+Enter String 2: WORLD
+The two strings you have entered are not Anagrams...
+
+
+Test 3.
+INPUT: Lower, Case
+REASON: if the strings were lower case
+
+This program will determine if the strings you have entered are Anagrams
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: Lower
+Enter String 2: Case
+Error. Did not input a string or string was not all upper-case or the string contained spaces...
+
+
+Test 4.
+INPUT: 1234, 4321
+REASON: not inputting a string
+
+This program will determine if the strings you have entered are Anagrams
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: 1234
+Enter String 2: 4321
+Error. Did not input a string or string was not all upper-case or the string contained spaces...
+
+
+Test 5.
+INPUT:  _space, trace
+REASON: if space in strings
+
+This program will determine if the strings you have entered are Anagrams
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1:  space
+Enter String 2: trace
+Error. Did not input a string or string was not all upper-case or the string contained spaces...
+
+-------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------
+MAIN OUTPUTS FOR CODE 2
+
+Test 1.
+INPUT: ABC, CBA
+REASON: Testing if sort works
+
+This program will first convert the string the user enters into a matching prime number
+Then sort it in increasing order using radix sort
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: ABC
+Enter String 2: CBA
+Here is the new sorted prime number list: [2, 2, 3, 3, 5, 5]
+
+
+Test 2.
+INPUT: FED , BAG
+REASON: Testing if sort works for two-digit numbers
+
+This program will first convert the string the user enters into a matching prime number
+Then sort it in increasing order using radix sort
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: FED
+Enter String 2: BAG
+Here is the new sorted prime number list: [2, 3, 7, 11, 13, 17]
+
+* Theoretically the code should produce the list above however, for some reason the code kept running
+    delaying the output and was having trouble finishing the code *
+
+Test 3.
+INPUT: lower, case
+REASON: Testing if lower case letter works
+
+This program will first convert the string the user enters into a matching prime number
+Then sort it in increasing order using radix sort
+Enter two strings below that contain ONLY upper-case letters and no spaces:
+Enter String 1: lower
+Enter String 2: case
+Error. Did not input a string or string was not all upper-case or the string contained spaces...
+
+
+-------------------------------------------------------
+"""
